@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'PT Sans', Arial, sans-serif;
+	/*font-family: 'Ubuntu', sans-serif;*/
+	/*font-weight: 300;*/
+	/*font-size: 15px;*/
+	padding-left: 18%;
+	padding-right: 18%;
+	min-width: 480px;
+}
+
+/*Блок меню*/
+.b-menu {
+	font-size: 13px;
+	color: grey;
+	padding: 12px;
+	/*background-color: #ededed;*/
+}
+
+.b-menu__item {
+	list-style: none;
+	padding: 4px;
+}
+
+/*Блок меню с модификатором layout, имеющим значение horiz*/
+.b-menu_layout_horiz {
+	list-style: none;
+}
+
+/*Для вложенного элемента горизонтального меню задаётся отображение*/
+.b-menu_layout_horiz .b-menu__item {
+	margin-right: 2%;
+	display: inline;
+}
+
+.b-menu_theme_yellow {
+	background-color: yellow;
+}
+
+.b-menu_theme_red {
+	color: black;
+	background-color: red;
+}
+
+.b-header {
+	display: block;
+	margin-top: 2%;
+}
+
+.b-header__name_color_red {
+	display: inline-block;
+	color: red;
+}
+
+.b-header-menu {
+	/*display: inline-block;*/
+}
+
+.b-header-menu p {
+	float: left;
+	/*text-align: center;*/
+	width: 25%;
+}
+
+.b-photo {
+	width: 25%;
+	margin-top: 2%;
+	float: left;
+	background-color: #ededed;
+}
+
+.b-photo__image_corner_round {
+	border-radius: 6px;
+}
+
+.b-photo__image {
+	width: 100%;
+}
+
+.b-photo__image_shadow_yes {
+	box-shadow: 0 0 4px black;
+}
+
+.b-content {
+	width: 73%;
+	margin-left: 2%;
+	margin-top: 2%;
+	float: right;
+}
+
+.b-content__item {
+	margin-bottom: 1em;
+}
+
+.b-footer {
+	clear: both;
+}
