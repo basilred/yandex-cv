@@ -16,7 +16,6 @@ body {
 /*Блок меню*/
 .b-menu {
 	font-size: 13px;
-	color: grey;
 	padding: 12px;
 	/*background-color: #ededed;*/
 }
@@ -56,8 +55,13 @@ body {
 	color: red;
 }
 
-.b-header-menu {
-	/*display: inline-block;*/
+.name {
+	float: left;
+}
+
+.b-header .b-menu {
+	float: right;
+	padding: 0;
 }
 
 .b-header-menu p {
@@ -71,6 +75,8 @@ body {
 	margin-top: 2%;
 	float: left;
 	background-color: #ededed;
+
+	clear: both;
 }
 
 .b-photo__image_corner_round {
