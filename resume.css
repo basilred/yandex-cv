@@ -21,19 +21,20 @@ body {
 }
 
 .b-menu__item {
+	/*display: block;*/
 	list-style: none;
 	padding: 4px;
 }
 
 /*Блок меню с модификатором layout, имеющим значение horiz*/
 .b-menu_layout_horiz {
-	list-style: none;
+	/*list-style: none;*/
 }
 
 /*Для вложенного элемента горизонтального меню задаётся отображение*/
 .b-menu_layout_horiz .b-menu__item {
-	margin-right: 2%;
-	display: inline;
+	/*margin-right: 2%;*/
+	display: inline-block;
 }
 
 .b-menu_theme_yellow {
@@ -57,6 +58,8 @@ body {
 
 .name {
 	float: left;
+	/*position: relative;
+	vertical-align: middle;*/
 }
 
 .b-header .b-menu {
