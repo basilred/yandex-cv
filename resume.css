@@ -67,8 +67,14 @@ body {
 }
 
 .b-header .b-menu {
+	text-transform: uppercase;
 	float: right;
 	padding: 0;
+}
+
+.b-header .b-menu .b-menu__item {
+	padding-left: 12px;
+	padding-right: 12px;
 }
 
 .b-header-menu p {
@@ -108,6 +114,10 @@ body {
 .b-content__item {
 	margin-bottom: 1em;
 }
+
+/*.b-content__item h3 {
+	background-color: orange;
+}*/
 
 .b-footer {
 	clear: both;

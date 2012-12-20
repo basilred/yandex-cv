@@ -1,11 +1,21 @@
 (function($, undefined) {
 	$(function() {
 	// 	$("p").css("color", "#966");
-		$(".b-header .b-menu .b-menu__item:first").addClass("b-menu__item_state_active");
+		$("#common").addClass("b-menu__item_state_active");
 		$(".develop").hide();
 
-		$(".b-header .b-menu .b-menu__item").click(function() {
-			
+		$("#common").click(function() {
+			$("#develop").removeClass("b-menu__item_state_active");
+			$(".develop").hide('slow');
+			$("#common").addClass("b-menu__item_state_active");
+			$(".common").show('slow');
+		});
+
+		$("#develop").click(function() {
+			$("#common").removeClass("b-menu__item_state_active");
+			$(".common").hide('slow');
+			$("#develop").addClass("b-menu__item_state_active");
+			$(".develop").show('slow');
 		});
 	});
 })(jQuery);
