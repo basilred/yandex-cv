@@ -26,6 +26,10 @@ body {
 	padding: 4px;
 }
 
+.b-menu__item_state_active {
+	background-color: #ddd;
+}
+
 /*Блок меню с модификатором layout, имеющим значение horiz*/
 .b-menu_layout_horiz {
 	/*list-style: none;*/
