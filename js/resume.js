@@ -6,16 +6,16 @@
 
 		$("#common").click(function() {
 			$("#develop").removeClass("b-menu__item_state_active");
-			$(".develop").hide('slow');
+			$(".develop").slideUp('slow');
 			$("#common").addClass("b-menu__item_state_active");
-			$(".common").show('slow');
+			$(".common").slideDown('slow');
 		});
 
 		$("#develop").click(function() {
 			$("#common").removeClass("b-menu__item_state_active");
-			$(".common").hide('slow');
+			$(".common").slideUp('slow');
 			$("#develop").addClass("b-menu__item_state_active");
-			$(".develop").show('slow');
+			$(".develop").slideDown('slow');
 		});
 	});
 })(jQuery);
