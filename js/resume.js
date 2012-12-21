@@ -1,6 +1,5 @@
 (function($, undefined) {
 	$(function() {
-	// 	$("p").css("color", "#966");
 		$("#common").addClass("b-menu__item_state_active");
 		$(".develop").hide();
 

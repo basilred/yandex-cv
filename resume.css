@@ -10,7 +10,14 @@ body {
 	/*font-size: 15px;*/
 	padding-left: 18%;
 	padding-right: 18%;
-	min-width: 480px;
+	min-width: 580px;
+	max-width: 980px;
+}
+
+
+
+p {
+	padding-bottom: 0.5em;
 }
 
 /*Блок меню*/
@@ -30,29 +37,27 @@ body {
 	background-color: #ddd;
 }
 
-/*Блок меню с модификатором layout, имеющим значение horiz*/
-.b-menu_layout_horiz {
-	/*list-style: none;*/
-}
-
 /*Для вложенного элемента горизонтального меню задаётся отображение*/
 .b-menu_layout_horiz .b-menu__item {
-	/*margin-right: 2%;*/
 	display: inline-block;
 }
 
-.b-menu_theme_yellow {
+/*.b-menu_theme_yellow {
 	background-color: yellow;
-}
+}*/
 
-.b-menu_theme_red {
+/*.b-menu_theme_red {
 	color: black;
 	background-color: red;
-}
+}*/
 
 .b-header {
 	display: block;
 	margin-top: 2%;
+}
+
+.b-header a {
+	color: black;
 }
 
 .b-header__name_color_red {
@@ -62,14 +67,12 @@ body {
 
 .name {
 	float: left;
-	/*position: relative;
-	vertical-align: middle;*/
 }
 
 .b-header .b-menu {
 	text-transform: uppercase;
 	float: right;
-	padding: 0;
+	padding: 4px 0 0 0;
 }
 
 .b-header .b-menu .b-menu__item {
@@ -121,8 +124,4 @@ body {
 
 .b-footer {
 	clear: both;
-}
-
-p {
-	padding-bottom: 0.5em;
 }
